@@ -1,0 +1,17 @@
+.creatMessage-box {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-right: 1.1rem;
+    border-top: 2px solid #eee;
+}
+.message-box {
+    border-top: 2px solid #eee;
+    padding-left: 1rem;
+    padding-right: 1.1rem;
+}
+.message-time {
+    text-align: right;
+    font-size: 0.8rem;
+    color: #ccc;
+    padding-right: 1rem;
+}

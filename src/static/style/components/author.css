@@ -1,0 +1,53 @@
+.author-div{
+    text-align: center;
+    padding: 1rem;
+
+}
+.author-div div{
+    margin-bottom: 1rem;
+}
+.author-introduction{
+    font-size:.8rem;
+    color: #999;
+}
+.account{
+    background-color: #999;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+.showCode{
+    display: inline;
+    margin-left: 1rem;
+    position:relative;
+}
+.showCode:hover > .displayQQCode {
+    cursor: pointer;
+    display: block;
+}
+
+.showCode:hover > .displayWechatCode {
+    cursor: hand;
+    display: block;
+}
+
+.displayQQCode{
+    display: none;
+    width: 150px;
+    height: 150px;
+    background-color: #999;
+    background-size: 100%;
+    position: absolute;
+    left: -55px;
+    bottom: 20px;
+}
+
+.displayWechatCode{
+    display: none;
+    width: 150px;
+    height: 150px;
+    background-color: #999;
+    background-size: 100%;
+    position: absolute;
+    left: -55px;
+    bottom: 20px;
+}
