@@ -5,7 +5,7 @@ const Author =()=>{
 
     return (
         <div className="author-div comm-box">
-            <div> <Avatar size={100} src="http://qiujianhui.top/pic/avatar/avatar.png" /></div>
+            <div> <Avatar size={100} src="http://qiujianhui.cn/pic/avatar/avatar.png" /></div>
             <div className="author-introduction">
                 一只不断学习中的前端小菜鸡<br />
                 会点C/C++/Python/JS/ASP<br />
@@ -15,11 +15,11 @@ const Author =()=>{
                 <a href="https://github.com/qjh1924"><Avatar size={28} icon="github" className="account"/></a>
                 <div className="showCode">
                     <Avatar size={28} icon="qq"  className="account" />
-                    <img src="http://qiujianhui.top/pic/qrcode/QQCode.png" className="displayQQCode" alt="myQQCode" />
+                    <img src="http://qiujianhui.cn/pic/qrcode/QQCode.png" className="displayQQCode" alt="myQQCode" />
                 </div>
                 <div className="showCode">
                     <Avatar size={28} icon="wechat"  className="account" />
-                    <img src="http://qiujianhui.top/pic/qrcode/WechatCode.jpg" className="displayQQCode" alt="myWechatCode" />
+                    <img src="http://qiujianhui.cn/pic/qrcode/WechatCode.jpg" className="displayQQCode" alt="myWechatCode" />
                 </div>
             </div>
         </div>

@@ -1,0 +1,11 @@
+@import '~antd/dist/antd.css';
+
+html, body, #root {
+  height: 100%;
+}
+
+.ant-layout {
+  display: flex;
+  width: 100%;
+  min-height: 100%;
+}

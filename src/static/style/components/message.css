@@ -10,8 +10,8 @@
     padding-right: 1.1rem;
 }
 .message-time {
-    text-align: right;
+    position: absolute;
+    right: 1rem;
     font-size: 0.8rem;
     color: #ccc;
-    padding-right: 1rem;
 }

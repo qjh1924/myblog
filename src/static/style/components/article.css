@@ -1,0 +1,89 @@
+.article-card{
+    margin-top: 2rem;
+}
+.article-title{
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 1rem;
+}
+.center{
+    text-align: center;
+}
+.article-content{
+    padding: 1.3rem;
+    font-size: 1rem;
+}
+
+p code {
+    font-size: 1rem;
+    color: #000;
+    font-weight: bold;
+    font-style:oblique;
+}
+
+li code {
+    font-size: 1rem;
+    color: #000;
+    font-weight: bold;
+    font-style:oblique;
+}
+
+code, pre {
+    color: #eee;
+    background: none;
+    font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", "Microsoft YaHei", monospace;
+    font-size: .9rem;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+    tab-size: 4;
+    hyphens: none;
+    overflow-y: hidden;
+}
+
+pre {
+    background-color: #2d2d2d;
+    position: relative;
+    padding-left: 3.5rem;
+}
+
+code {
+    position: relative;
+    white-space: inherit
+}
+
+p img {
+    width: 100%;
+}
+
+/*代码行号*/
+span[line-row] {
+    position: absolute;
+    left: -4rem;
+    top: 0;
+    pointer-events: none;
+    font-size: 100%;
+    width: 3rem;
+    letter-spacing: -1px;
+    border-right: 1px solid rgb(233, 233, 233);
+    user-select: none;
+    counter-reset: linenumber;
+}
+span[line-row] > span {
+    pointer-events: none;
+    display: block;
+    counter-increment: linenumber;
+}
+span[line-row] > span::before {
+    content: counter(linenumber);
+    color: #aaa;
+    display: block;
+    padding-right: .6rem;
+    text-align: right;
+}
+
+
+/*目录导航栏*/

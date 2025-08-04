@@ -1,0 +1,40 @@
+.sider {
+    width: 12.5rem;
+    background-color: white;
+}
+.sider-about {
+    color: #000;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.sider-introduce {
+    margin-top: 1rem;
+}
+
+.sider-introduce p{
+    color: #777;
+    font-size: .7rem;
+    text-align: center;
+}
+
+.sider-contact {
+    margin-top: 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sider-contact div {
+    padding: 0 0.5rem;
+}
+
+.sider-count {
+    padding-left: 0.5rem;
+}
+
+.sider-count div {
+    display: flex;
+    font-size: 0.8rem;
+}
