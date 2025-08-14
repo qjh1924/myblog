@@ -16,7 +16,7 @@ function MyHeader () {
                 return res.data
             }
         )
-        articleTypes.pop()
+        let articleTypes = []
         result.forEach(element => {
           articleTypes.push({ key: element.id, label: element.type})
         });

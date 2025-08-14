@@ -79,7 +79,7 @@ function MyArticle () {
                                 <Space size="large">
                                     <span><CalendarOutlined /> {article.addTime}</span>
                                     <span><FolderOpenOutlined /> {article.typeName}</span>
-                                    <span><EyeOutlined /> {article.view_count}</span>
+                                    <span><EyeOutlined /> {article.viewCnt}</span>
                                 </Space>
                             </div>
                             

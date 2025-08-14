@@ -67,8 +67,8 @@ function MySider () {
         <div className="sider-count" >
           <p>网站计数</p>
           <div><Statistic title="文章：" value={websiteCount.articleCnt} /></div>
-          <div><Statistic title="评论：" value={websiteCount.viewCnt} /></div>
-          <div><Statistic title="访问：" value={websiteCount.commentCnt} /></div>
+          <div><Statistic title="评论：" value={websiteCount.commentCnt} /></div>
+          <div><Statistic title="访问：" value={websiteCount.viewCnt} /></div>
         </div>
       </Card>
     </div>
